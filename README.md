@@ -35,8 +35,6 @@ Get the dataset by running this command:
 ```
 wget -r -N -c -np https://physionet.org/files/challenge-2019/1.0.0/
 ```
-Put two data files "training_setA" and "training_setB" under "dataset" folder
-under root.
 
 ## <a name="link-part-4">Algorithm</a>
 
