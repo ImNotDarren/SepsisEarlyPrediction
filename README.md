@@ -47,4 +47,5 @@ The project proposal is shown [here](/documents/proposal.md).
 The MVP document is shown [here](/documents/MVP.md).
 
 ## <a name="link-part-7">How to run</a>
-Get the model by running [random_forest.ipynb](/models/random_forest.ipynb)
+Get the model by running [random_forest.ipynb](/models/random_forest.ipynb).
+Test the model by running [testing.ipynb](/testing.ipynb).
