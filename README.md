@@ -11,9 +11,6 @@
 
 ## <a name="link-part-1">Abstract</a>
 
-This project comes from the [PhysioNet/Computing in Cardiology Challenge](https://physionet.org/content/challenge-2019/1.0.0/)
-in 2019.
-
 Sepsis is a life-threatening condition that occurs when the body's response
 to infection causes tissue damage, organ failure, or death ([Singer et al., 2016](https://www.ncbi.nlm.nih.gov/pubmed/26903338)).
 In the US, nearly 1.7 million people develop sepsis and 270,000 people die
@@ -27,6 +24,10 @@ of sepsis using physiological data.
 
 ## <a name="link-part-2">Design</a>
 
+This project comes from the [PhysioNet/Computing in Cardiology Challenge](https://physionet.org/content/challenge-2019/1.0.0/)
+in 2019. The data is sourced from ICU patients in three separate hospital systems.
+Classifying sepsis label to take action in the early phase of sepsis before getting
+server.
 
 
 ## <a name="link-part-3">Data</a>
@@ -35,6 +36,11 @@ Get the dataset by running this command:
 ```
 wget -r -N -c -np https://physionet.org/files/challenge-2019/1.0.0/
 ```
+
+The data contains 40,336 files and each file contains a table providing a sequence
+of measurements over time. Each row represents a single hour's worth of data. There
+are 41 columns including vital signs, laboratory values, Demographics, and the target
+outcome.
 
 ## <a name="link-part-4">Algorithm</a>
 
