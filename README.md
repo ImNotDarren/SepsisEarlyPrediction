@@ -40,6 +40,13 @@ wget -r -N -c -np https://physionet.org/files/challenge-2019/1.0.0/
 
 
 
+## <a name="link-part-5">Tools</a>
+
+* **Pandas** for exploratory data analysis.
+* **Matplotlib** and **Seaborn** for plotting.
+* **Scikit Learn** for modeling.
+* **Pickle** for saving models in a pickle file.
+
 ## <a name="link-part-6">Communication</a>
 
 The project proposal is shown [here](/documents/proposal.md).
