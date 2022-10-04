@@ -60,12 +60,15 @@ outcome.
 I've tried logistic regression, random forest and bagging classifiers, and as a result,
 bagging classifier outperform the others which is the final model I used.
 
-** Model Evaluation and Selection:**
+**Model Evaluation and Selection:**
 
-The dataset was split into 70/15/15, and all scores reported was calculated using the
+The dataset was split into 80/20 train vs. heldout, and all scores reported was calculated using the
 [TestKit](/testing.ipynb). It counts as true positive result if the classifier predicts
 sepsis between 12 hours before and 3 hour after sepsis time, which in this case is between
 6 hours before and 9 hours after SepsisLabel turns into 1.
+
+**Final bagging scores:** 18 features
+- Accuracy: 
 
 ## <a name="link-part-5">Tools</a>
 
