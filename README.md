@@ -47,13 +47,23 @@ outcome.
 **Data Cleaning:**
 
 1. Removing columns with a missing rate higher than 93%.
-2. Filling NaN HR, Temp, SBP, Resp, O2Sat and MAP values with the next non-NaN value.
-3. Filling the rest NaN values with -999.
+2. Filling NaN HR, Temp, SBP, Resp, O2Sat and MAP values with the last non-NaN value.
+3. Marking the rest NaN values as "missing".
 
 **Feature Engineering:**
 
 1. Getting the symptoms of sepsis.
 2. Creating labels for HR, Age, Temp, Resp, SBP, MAP and DBP columns.
+
+**Models:**
+
+I've tried logistic regression, random forest and bagging classifiers, and as a result,
+bagging classifier outperform the others which is the final model I used.
+
+** Model Evaluation and Selection:**
+
+The dataset was split into 70/15/15, and all scores reported was calculated using the
+[TestKit](/testing.ipynb).
 
 ## <a name="link-part-5">Tools</a>
 
