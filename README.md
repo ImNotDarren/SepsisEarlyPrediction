@@ -62,13 +62,15 @@ bagging classifier outperform the others which is the final model I used.
 
 **Model Evaluation and Selection:**
 
-The dataset was split into 80/20 train vs. heldout, and all scores reported was calculated using the
+The dataset was split into 80/20 train vs. holdout, and all scores reported was calculated using the
 [TestKit](/testing.ipynb). It counts as true positive result if the classifier predicts
 sepsis between 12 hours before and 3 hour after sepsis time, which in this case is between
 6 hours before and 9 hours after SepsisLabel turns into 1.
 
 **Final bagging scores:** 18 features
-- Accuracy: 
+- Accuracy: 0.610
+- F1 score: 0.087
+- ROC AUC: 0.916
 
 ## <a name="link-part-5">Tools</a>
 
@@ -78,6 +80,13 @@ sepsis between 12 hours before and 3 hour after sepsis time, which in this case 
 * **Pickle** for saving models in a pickle file.
 
 ## <a name="link-part-6">Communication</a>
+**Heatmap for the result:**
+
+<img src="/img/heatmap.png" style="width: 300px;" />
+
+**ROC Curve:**
+
+<img src="/img/roc_curve.png" style="width: 300px;" />
 
 The project proposal is shown [here](/documents/proposal.md).
 
