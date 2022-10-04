@@ -92,6 +92,8 @@ The project proposal is shown [here](/documents/proposal.md).
 
 The MVP document is shown [here](/documents/MVP.md).
 
+The slides are shown [here](/documents/slides.pdf).
+
 ## <a name="link-part-7">How to run</a>
 
 Get the model by running [random_forest.ipynb](/models/random_forest.ipynb).
