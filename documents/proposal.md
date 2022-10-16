@@ -31,5 +31,5 @@ values, Demographics, and the target outcome.
 * **Pickle** for saving models in a pickle file.
 
 ## MVP Goal:
-My MVP goal is to analysing the data to build some virtualizations and determine
+My MVP goal is to analyse the data to build some virtualizations and determine
 which classification method to use.
